@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Jetbrains Mono';
+}
+
+th {
+  @apply w-16 font-semibold;
+}
+
+th,
+td {
+  @apply py-3;
+}
+
+.nice-shadow {
+  background: linear-gradient(315deg, #b7c0cb, #d9e4f1);
+  box-shadow: -10px -10px 20px #b7c0cb, 10px 10px 20px #dfeaf8;
+}
